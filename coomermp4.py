@@ -7,9 +7,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-INPUT_CSV = "daisy_post_links.csv"          # your existing CSV with post URLs
-OUTPUT_CSV = "daisy_mp4_links.csv"          # direct mp4 links only
-OUTPUT_TXT = "daisy_mp4_links.txt"          # direct mp4 links only
+INPUT_CSV = ".csv"          # your existing CSV with post URLs
+OUTPUT_CSV = ".csv"          # direct mp4 links only
+OUTPUT_TXT = ".txt"          # direct mp4 links only
 
 POST_URL_COLUMN = "url"               # change if your CSV column is named differently
 POST_TEXT_COLUMN = "post_text"        # optional, from earlier script
