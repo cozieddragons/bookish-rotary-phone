@@ -6,11 +6,11 @@ import requests
 from bs4 import BeautifulSoup
 
 
-START_URL = "https://xxxcoomer.com/creator/onlyfans/317228/sexxyy-daisy?page=1"
+START_URL = ""
 START_PAGE = 1
 END_PAGE = 15
 
-OUTPUT_FILE = "daisy_post_links.csv"
+OUTPUT_FILE = ""
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
